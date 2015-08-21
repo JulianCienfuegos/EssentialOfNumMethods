@@ -1,0 +1,6 @@
+To Do:
+-> Discussion of denormalized numbers. What is the smallest normal number? Image of the spacing of floats.
+-> have everyone type and then run the denormalized numbers code in python with +, - 0.1
+-> Then ask them to change the +, - to 0, and have them run it again.
+-> Now show the matrix multiplication codes in c++ and python. Show how run time is drastically affected in c++.
+-> Have them translate the code into matlab. Demonstrate the code in c++ and python at the same time so they can translate the one they prefer.
