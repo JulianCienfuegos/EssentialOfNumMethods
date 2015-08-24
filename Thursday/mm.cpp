@@ -45,7 +45,7 @@ int main() {
               for (int c = 0; c < N; c++){
                      for (int r = 0; r < N; r++){
                            for (int k = 0; k < N; k++){
-                                  C[r][k] += (A[r][k] * B[k][c]);
+                                  C[r][c] += (A[r][k] * B[k][c]);
                            }
                      }
               }
@@ -74,7 +74,6 @@ int main() {
               for (int k = 0; k < N; k++){
                            for (int r = 0; r < N; r++){
                           
-                                  C[r][k] += (A[r][k] * B[k][c]);
+                                  C[r][c] += (A[r][k] * B[k][c]);
     }}}}
-
   }
